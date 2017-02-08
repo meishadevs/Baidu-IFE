@@ -33,7 +33,7 @@
     <!-- 头部 e -->
 
     <!-- 网页的版心 s -->
-    <div class="inner">
+    <div class="inner clearfix">
 
         <!-- 第一篇文章 s -->
         <article class="article">
@@ -175,16 +175,64 @@
         <!-- 注册面板 s -->
         <article class="article registPanel">
             <h1 class="title">这是一个侧栏，这是侧栏的标题</h1>
-            
-            <div class="email">
-                <label for="">请输入邮箱地址</label>
-                <input type="email"/>
-            </div>
+
+            <form action="http://localhost:63342/save.php" method="post">
+                <div>
+                    <label for="" class="tips">请输入邮箱地址</label>
+                    <input type="text" placeholder="邮箱"/>
+                    <p>邮箱地址请按要求格式输入</p>
+                </div>
+                <div>
+                    <label for="" class="tips">请输入密码</label>
+                    <input type="password" placeholder="密码"/>
+                </div>
+                <div>
+                    <label for="" class="tips">请重复输入密码</label>
+                    <input type="password" placeholder="请重复输入密码"/>
+                    <p>密码为6-16位英文数字</p>
+                </div>
+            </form>
+            <form action="http://localhost:63342/save.php" method="post">
+                <div>
+                    <label for="" class="tips">性别</label>
+                    <input type="radio" name="sex" checked="checked"/>男
+                    <input type="radio" name="sex"/>女
+                </div>
+            </form>
+            <form action="http://localhost:63342/save.php" method="post">
+                <div>
+                    <label for="" class="tips">城市</label>
+                    <select name="city" id="city">
+                        <option value="1" selected="selected">北京</option>
+                        <option value="2">上海</option>
+                        <option value="3">广州</option>
+                        <option value="4">深圳</option>
+                    </select>
+                </div>
+            </form>
+            <form action="http://localhost:63342/save.php" method="post">
+                <div>
+                    <label for="" class="tips">爱好</label>
+                    <input type="checkbox"/>运动
+                    <input type="checkbox"/>艺术
+                    <input type="checkbox"/>科学
+                </div>
+            </form>
+            <form action="http://localhost:63342/save.php" method="post">
+                <div>
+                    <label for="" class="tips">个人描述</label>
+                    <textarea name="" id="">这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
+                </div>
+            </form>
+            <input type="button" class="submitButton" value="确认提交"/>
         </article>
         <!-- 注册面板 e -->
 
     </div>
     <!-- 网页的版心 e -->
 
+    <footer class="footer">
+        版权所有ⓒhollowtree
+    </footer>
 </body>
 </html>
