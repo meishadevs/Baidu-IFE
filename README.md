@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+#Baidu-IFE
+###自己独立完成的一些百度前端技术学院的任务
 
-You can use the [editor on GitHub](https://github.com/meishaxiaozi/Baidu-IFE/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/meishaxiaozi/Baidu-IFE/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##完成的任务链接
+- **[任务一：零基础HTML](https://meishaxiaozi.github.io/Baidu-IFE/task1-%E9%9B%B6%E5%9F%BA%E7%A1%80HTML%E7%BC%96%E5%86%99/index.html)**
+- **[任务二：零基础HTML及CSS编码（一）](https://meishaxiaozi.github.io/Baidu-IFE/task2-%E9%9B%B6%E5%9F%BA%E7%A1%80HTML%E5%8F%8ACSS%E7%BC%96%E7%A0%81%EF%BC%88%E4%B8%80%EF%BC%89/index.html)**
+- **[任务三：三样式布局](https://meishaxiaozi.github.io/Baidu-IFE/test3-%E4%B8%89%E6%A0%B7%E5%BC%8F%E5%B8%83%E5%B1%80/index.html)**
+- **[任务四：定位与居中问题](https://meishaxiaozi.github.io/Baidu-IFE/test4-%E5%AE%9A%E4%BD%8D%E4%B8%8E%E5%B1%85%E4%B8%AD%E9%97%AE%E9%A2%98/index.html)**
