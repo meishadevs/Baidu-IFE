@@ -1,0 +1,129 @@
+
+body, ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 750px;
+    background-color: #DEDEDE;
+    font-family: "黑体";
+    font-size: 14px;
+}
+
+/* 头部 s */
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #333333;
+    display: table;
+}
+
+.header .logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header .logo img {
+    margin-left: 35px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+    height: 70px;
+    margin-right: 20px;
+    line-height: 70px;
+}
+
+.nav ul a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav ul a:hover {
+    color: #959597;
+}
+/* 头部 e */
+
+/* 右侧的注册面板 s */
+.registerPanel {
+    width: 350px;
+    height: 498px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px #8B8B8B;
+    float: right;
+}
+
+.registerPanel h3 {
+    padding-left: 10px;
+    border-left: solid 3px #CCCCCC;
+}
+
+form > div {
+    margin: 10px 0;
+}
+
+form .input_message {
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form .bot {
+    vertical-align: bottom;
+}
+
+form .demend {
+    margin-left: 35%;
+    margin-top: 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+input[type="radio"] {
+    margin-top: 12px;
+}
+
+select, {
+    margin-top: 7px;
+}
+
+input[type="checkbox"] {
+    margin-top: 11px;
+}
+
+textarea {
+    padding: 0;
+    margin: 0;,
+}
+/* 右侧的注册面板 e */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
