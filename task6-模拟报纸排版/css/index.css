@@ -1,0 +1,420 @@
+
+html,
+body {
+    background-color: #5D5D5D;
+}
+
+/* 版心 */
+.inner-c {
+    width: 892px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 980px;
+    height: 1386px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* 头部 s */
+
+.header {
+    width: 892px;
+    margin-bottom: 34px;
+    border-bottom: solid 2px #938e8c;
+    font-size: 12px;
+    font-family: '黑体';
+}
+
+.header .header-title {
+    width: 103px;
+    height: 15px;
+    padding-top: 46px;
+    padding-left: 7px;
+    background-color: #d45d5c;
+    color: #fff;
+    float: left;
+}
+
+.header .header-date {
+    padding-top: 46px;
+    color: #d45d5c;
+    float: right;
+}
+
+/* 头部 e */
+
+/* 内容区 s */
+
+.content-top {
+    width: 892px;
+    height: 301px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.content-top .banner {
+    width: 641px;
+    height: 301px;
+    background: url("../images/banner.png") no-repeat;
+    float: left;
+}
+
+.content-top .banner .banner-left {
+    width: 191px;
+    height: 301px;
+    background-color: #418c58;
+    opacity: 0.5;
+    float: left;
+}
+
+.content-top .banner .banner-right {
+    width: 191px;
+    height: 301px;
+    background-color: #cc7580;
+    opacity: 0.5;
+    float: right;
+}
+
+.content-top .sidebar {
+    width: 203px;
+    border-top: solid 2px #cc8091;
+    float: right;
+}
+
+.sidebar {
+    font-family: "微软雅黑", "Microsoft YaHei";
+}
+
+.sidebar .sidebar-top .sidebar-title {
+    line-height: 40px;
+    margin-top: 6px;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.sidebar .sidebar-top .sidebar-desc {
+    line-height: 10px;
+    font-family: '楷体', KaiTi;
+    font-size: 12px;
+    color: #676767;
+}
+
+.sidebar .sidebar-top .sidebar-score {
+    margin-left: -16px;
+    font-size: 116px;
+    font-style: italic;
+    color: #75b86b;
+}
+
+.sidebar .sidebar-bottom {
+    margin-top: -20px;
+    color: #cc8091;
+}
+
+.sidebar .sidebar-bottom .sidebar-score {
+    font-size: 55px;
+    float: left;
+}
+
+.sidebar .sidebar-bottom .sidebar-content {
+    padding-top: 18px;
+    float: left;
+}
+
+.sidebar .sidebar-bottom .sidebar-text {
+    font-size: 21px;
+}
+
+.sidebar .sidebar-bottom .sidebar-desc {
+    font-size: 12px;
+}
+
+.content-middle {
+}
+
+.content-middle .content-what,
+.content-middle .content-when,
+.content-middle .content-how {
+    width: 228px;
+    margin-right: 26px;
+    float: left;
+}
+
+.content-middle .content-how {
+    width: 133px;
+}
+
+.content-middle .title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content-what .title {
+    color: #418c59;
+}
+
+.content-when .title {
+    color: #d2994f;
+}
+
+.content-how .title {
+    color: #cc7680;
+}
+.content-middle .text {
+    line-height: 16px;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 12px;
+    color: #231815;
+    opacity: 0.7;
+}
+
+.content-how .list {
+    margin-top: 32px;
+}
+
+.content-how .item {
+    line-height: 16px;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.content-how .item span {
+    font-style: italic;
+    color: #cd4a48;
+}
+
+.content-bottom {
+    margin-top: 75px;
+}
+
+.content-bottom .content-left {
+    width: 415px;
+    float: left;
+}
+
+.content-left .content-title {
+    margin-bottom: 12px;
+    font-family: '黑体', 'SimHei';
+    font-weight: bold;
+    border-bottom: solid 2px #10456b;
+}
+
+.content-left .content-title i {
+    font-size: 72px;
+    font-style: italic;
+    color: #f5e327;
+}
+
+.content-left .content-title span {
+    font-size: 42px;
+    color: #11456b;
+}
+
+.content-left .content-title em {
+    font-size: 33px;
+    color: #11456b;
+    display: block;
+}
+
+.content-left .large {
+    margin-right: 9px;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 70px;
+    color: #f5e372;
+    float: left;
+}
+
+.content-left .text {
+    line-height: 16px;
+    font-family: "宋体", 'SimSun';
+    font-size: 12px;
+    color: #767777;
+}
+
+.content-left .pic {
+    margin: 15px 0 0 15px;
+    float: right;
+}
+
+.content-bottom .content-right {
+    width: 458px;
+    margin-top: 18px;
+    float: right;
+}
+
+.content-right .tech {
+    width: 458px;
+    height: 257px;
+    background: url("../images/pic2.png") no-repeat;
+    position: relative;
+}
+
+.tech .tech-title {
+    width: 420px;
+    height: 45px;
+    padding: 8px 0 8px 38px;
+    background: url("../images/pic3.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+}
+
+.tech .tech-title span {
+    height: 44px;
+    line-height: 44px;
+    padding-left: 10px;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 26px;
+    color: #fff;
+    border-left: solid 3px #72b16a;
+    float: left;
+}
+
+.tech .tech-title em {
+    padding-top: 25px;
+    padding-left: 5px;
+    font-size: 12px;
+    font-style: italic;
+    color: #72b16a;
+    float: left;
+}
+
+.content-right .info {
+    width: 458px;
+    height: 337px;
+    margin-top: 18px;
+    background-color: #EDECD6;
+}
+
+.info .info-list {
+    padding: 20px 0 30px 30px;
+}
+
+.info-list li {
+    line-height: 40px;
+    font-family: "宋体", 'SimSun';
+    color: #5a5b5b;
+}
+
+.info-list li .triangle {
+    width: 0;
+    height: 0;
+    margin-right: 7px;
+    border-style: solid;
+    border-color: transparent transparent #11456C transparent;
+    border-width: 0 5px 9px 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.info-list li span {
+    font-size: 16px;
+}
+
+.info-list li em {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.info .info-content {
+
+}
+
+.info-content .info-left {
+    width: 275px;
+    height: 160px;
+    background-color: #D45C5B;
+    float: left;
+}
+
+.info-left .title {
+    height: 86px;
+    margin: 10px 10px 0 13px;
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 110px;
+    color: #fff;
+    float: left;
+}
+
+.info-left .line {
+    width: 2px;
+    height: 86px;
+    margin-top: 40px;
+    margin-right: 8px;
+    background-color: #fff;
+    float: left;
+}
+
+.info-left .col {
+    float: left;
+}
+
+.info-left .col h3 {
+    line-height: 24px;
+    margin-top: 40px;
+    font-family: '黑体', 'SimHei';
+    font-size: 21px;
+    font-style: italic;
+    color: #fff;
+}
+
+.info-left .col .text {
+    line-height: 12px;
+    font-family: '黑体', 'SimHei';
+    font-size: 12px;
+    color: #fff;
+}
+
+.info-content .info-right {
+    margin-left: 10px;
+    float: left;
+}
+
+.info-content .info-right .mark {
+    font-family: '黑体', 'SimHei';
+    font-size: 14px;
+    color: #d45d5c;
+}
+
+.info-content .info-right .text {
+    line-height: 16px;
+    font-family: '黑体', 'SimHei';
+    font-size: 14px;
+    font-style: italic;
+    color: #5a5b5b;
+}
+
+/* 内容区 e*/
+
+/* 脚部 s */
+.footer {
+    width: 892px;
+    margin-top: 40px;
+    border-top: solid 1px #938e8c;
+    font-family: '黑体', 'SimHei';
+    font-size: 12px;
+    text-align: right;
+    color: #d45d5c;
+}
+/* 脚部 e */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
