@@ -1,0 +1,126 @@
+/**
+ * Created by Administrator on 2017/11/7
+ * 重置标签的CSS样式
+ */
+
+html,
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div,
+dl,
+dt,
+dd,
+input,
+a,
+::before,
+::after {
+    margin:0;
+    padding:0;
+    outline-style: none;
+
+    /* 清除ios上默认点击时产生的高亮区块 */
+    -webkit-tap-highlight-color: transparent;
+    tap-hight-color: transparent;
+
+    /* 设置盒模型为IE盒模型 */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ody {
+    line-height: 1;
+    font-family: "Microsoft YaHei", "sans-serif";
+    font-size: 14px;
+    color: #333;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+input,
+textarea {
+    border: 0;
+    outline: none;
+    resize: none;
+
+    /* 清楚ios浏览器默认的样式 */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+img {
+    /* 清除3px的bug */
+    vertical-align: middle;
+    border: 0;
+}
+
+/* 清除浮动 */
+.clearfix::after,
+.clearfix::before {
+    content: '.';
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

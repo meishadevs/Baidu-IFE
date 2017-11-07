@@ -1,0 +1,40 @@
+/**
+ * Created by Administrator on 2017/11/7
+ * 首页的CSS样式
+ */
+
+.container {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 57px;
+    background-color: #91D4DA;
+    position: relative;
+}
+
+.header .icon-back {
+    height: 24px;
+    line-height: 24px;
+    padding-left: 20px;
+    background: url("../images/icon-back.png") no-repeat;
+    background-size: 13px 24px;
+    font-size: 20px;
+    color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
+    left: 32px;
+    top: 50%;
+}
+
+.header .header-title {
+    height: 57px;
+    line-height: 57px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+}
