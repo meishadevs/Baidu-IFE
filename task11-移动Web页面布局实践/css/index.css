@@ -111,12 +111,24 @@
     float: left;
 }
 
+.column .column-list li a {
+    height: 82px;
+    display: block;
+    position: relative;
+}
+
 .column .column-list li:nth-last-child(1) {
     border-right: none;
 }
 
 .column .column-list .column-image {
     width: 50%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .column .column-list .column-title1 {
@@ -129,11 +141,6 @@
 .column .column-list .column-title2 {
     font-size: 14px;
     color: #5C5C5C;
-}
-
-.column .column-list li:nth-last-child(1) a {
-    margin-bottom: 35px;
-    display: block;
 }
 
 .module {
